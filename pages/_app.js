@@ -24,6 +24,9 @@ import dynamic from 'next/dynamic'
 const ClerkProvider = dynamic(() =>
   import('@clerk/nextjs').then(m => m.ClerkProvider)
 )
+const SpeedInsights = dynamic(() =>
+  import('@vercel/speed-insights/next').then(m => m.SpeedInsights)
+)
 const AppErrorBoundary = ErrorHandler.createErrorBoundary(
   <div style={{ padding: '2rem', textAlign: 'center', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
     <h1 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>Something went wrong</h1>
@@ -91,6 +94,7 @@ const MyApp = ({ Component, pageProps }) => {
         </GLayout>
         <ExternalPlugins {...pageProps} />
       </GlobalContextProvider>
+      <SpeedInsights />
     </AppErrorBoundary>
   )
   return (
