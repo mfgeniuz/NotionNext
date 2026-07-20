@@ -4,19 +4,22 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_COLOR_PRIMARY: '#4f65f0',
-  HEO_COLOR_PRIMARY_HOVER: '#4f46e5',
+  HEO_COLOR_PRIMARY: '#b1ad9a',
+  HEO_COLOR_PRIMARY_HOVER: '#56533e',
   HEO_COLOR_PRIMARY_TEXT: '#ffffff',
-  HEO_COLOR_ACCENT: '#dca846',
-  HEO_COLOR_BG: '#f7f9fe',
-  HEO_COLOR_BG_DARK: '#18171d',
+  HEO_COLOR_ACCENT: '#6D6027',
+  HEO_COLOR_BG: '#fafafa',
   HEO_COLOR_CARD: '#ffffff',
-  HEO_COLOR_CARD_DARK: '#1e1e1e',
   HEO_COLOR_CARD_MUTED: '#f1f3f8',
-  HEO_COLOR_BORDER: '#4f46e5',
-  HEO_COLOR_BORDER_DARK: '#dca846',
-  HEO_COLOR_TEXT: '#111827',
+  HEO_COLOR_BORDER: '#56533e',
+  HEO_COLOR_TEXT: '#000000',
   HEO_COLOR_TEXT_SECONDARY: '#4b5563',
+  HEO_COLOR_BG_DARK: '#18171d',
+  HEO_COLOR_CARD_DARK: '#1e1e1e',
+  HEO_COLOR_BORDER_DARK: '#dca846',
+  HEO_COLOR_TEXT_DARK: '#f3f4f6',
+  HEO_COLOR_TEXT_SECONDARY_DARK: '#d1d5db',
+  HEO_COLOR_PRIMARY_DARK: '#4f65f0'
 
   HEO_SITE_CREATE_TIME: '2026-07-19', // 建站日期，用于计算网站运行的第几天
 
@@ -65,12 +68,13 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD_URL1: '/about',
-  HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: '#',
-  HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: '#',
+  HEO_INFO_CARD_URL1: 'https://www.youtube.com/@mfgeniuz',
+  HEO_INFO_CARD_ICON1: 'fab fa-youtube',
+  HEO_INFO_CARD_URL2: 'https://open.spotify.com/user/dwe1s7j1waq61m8vd1p75ozav',
+  HEO_INFO_CARD_ICON2: 'fab fa-spotify',
+  HEO_INFO_CARD_URL3: '/about',
   HEO_INFO_CARD_TEXT3: '了解更多',
+
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -132,11 +136,11 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: '#',  // 待添加社群链接
+  HEO_SOCIAL_CARD_TITLE_1: 'BiliBili',
+  HEO_SOCIAL_CARD_TITLE_2: '关注我的B站账号',
+  HEO_SOCIAL_CARD_TITLE_3: '点击关注',
+  HEO_SOCIAL_CARD_URL: '#',
+
 
   // 底部统计面板文案
   HEO_POST_COUNT_TITLE: '文章数:',
