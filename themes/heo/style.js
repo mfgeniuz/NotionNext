@@ -10,17 +10,17 @@ const Style = () => {
   return (
     <style jsx global>{`
       #theme-heo {
-        --heo-color-primary: #4f65f0;
-        --heo-color-primary-hover: #4f46e5;
+        --heo-color-primary: #b1ad9a;
+        --heo-color-primary-hover: #56533e;
         --heo-color-primary-text: #ffffff;
-        --heo-color-accent: #ca8a04;
-        --heo-color-bg: #f7f9fe;
+        --heo-color-accent: #6D6027;
+        --heo-color-bg: #fafafa;
         --heo-color-bg-dark: #18171d;
         --heo-color-card: #ffffff;
         --heo-color-card-dark: #1e1e1e;
         --heo-color-card-muted: #f1f3f8;
-        --heo-color-border: #4f46e5;
-        --heo-color-border-dark: #ca8a04;
+        --heo-color-border: #56533e;
+        --heo-color-border-dark: #dca846;
         --heo-color-text-light: #000000;
         --heo-color-text-secondary-light: #4b5563;
         --heo-color-text-dark: #f3f4f6;
