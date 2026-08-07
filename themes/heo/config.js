@@ -67,7 +67,7 @@ const CONFIG = {
   ],
 
   // 个人资料底部按钮
-  HEO_INFO_CARD_URL1: 'https://www.youtube.com/@mfgeniuz',
+  HEO_INFO_CARD_URL1: 'https://www.youtube.com/@TheRealGez',
   HEO_INFO_CARD_ICON1: 'fab fa-youtube',
   HEO_INFO_CARD_URL2: 'https://open.spotify.com/user/dwe1s7j1waq61m8vd1p75ozav',
   HEO_INFO_CARD_ICON2: 'fab fa-spotify',
@@ -138,7 +138,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: 'BiliBili',
   HEO_SOCIAL_CARD_TITLE_2: '关注我的B站账号',
   HEO_SOCIAL_CARD_TITLE_3: '点击关注',
-  HEO_SOCIAL_CARD_URL: '#',
+  HEO_SOCIAL_CARD_URL: 'https://space.bilibili.com/7035807?spm_id_from=333.1007.0.0',
 
 
   // 底部统计面板文案
